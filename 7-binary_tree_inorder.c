@@ -8,7 +8,7 @@
  * Return: no return
  */
 
-void binary_tree_inorder(const binary_tree_t *tree, voide (*func)(int))
+void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int))
 {
 	if (tree && func)
 	{
